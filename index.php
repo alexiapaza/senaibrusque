@@ -153,8 +153,8 @@
         </section>
         <section id="local" class="container-fluid">
             <h1>Localização</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d113641.42934820078!2d-48.98024281464476!3d-27.11552733171023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x94df47b2050e1221%3A0xb0ebeaaf853b447!2sAv.+Primeiro+de+Maio%2C+670+-+Primeiro+de+Maio%2C+Brusque+-+SC%2C+88353-202!3m2!1d-27.1156975!2d-48.910202!5e0!3m2!1spt-BR!2sbr!4v1447799869084" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>"
+            <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic' rel='stylesheet' type='text/css'>
         </section>
         <script src="js/meuscript.js"></script>
     </body>
