@@ -19,7 +19,7 @@
 
         <header class="jumbotron text-center" id="topo">
             <h1>SENAI/SC Brusque</h1>
-            <p>Alo Ha mundo do Bootstrap</p>
+            
 
             <form role="form" class="form-inline">
                 <!-- Gerador de Bootstrap Form 
