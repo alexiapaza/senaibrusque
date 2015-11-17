@@ -1,10 +1,72 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 13/11/2015, 20:32:11
     Author     : Alexia Fernanda Paza
 */
 
+#topo{
+    background-color: #017338;
+    color: whitesmoke;
+    height: 250px;
+}
+
+
+/**
+Topo Jumbotron
+*/
+
+.jumbotron{
+    margin: 0;
+}
+
+/**
+Menu afixado
+*/
+
+body {
+    position: relative; 
+}
+
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+    background-color: #115c35;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+/**
+Seções
+*/
+#inicio {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke; padding: 0;}
+#cursos {padding-top:50px;height:600px;color: #fff; background-color: #673ab7;}
+#noticias {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#fotos {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#videos {padding-top:50px;height:500px;color: #fff; background-color: red;}
+#contato {padding-top:50px;height:500px;color: #fff; background-color: green;}
+#local {padding-top:50px;height:500px;color: #fff; background-color: blue;}
+
+
+/**
+Carrossel de imagens
+*/
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%; height: 500px;
+      margin: auto;
+  }
+ 
+  /**
+  Personalizar o ícone de dentro de formulário
+  */
+  .has-feedback{
+      color: darkslategray;
+  }
