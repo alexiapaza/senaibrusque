@@ -51,7 +51,7 @@ Seções
 #fotos {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
 #videos {padding-top:50px;height:500px;color: #fff; background-color: red;}
 #contato {padding-top:50px;height:500px;color: #fff; background-color: green;}
-#local {padding-top:50px;height:500px;color: #fff; background-color: blue; font-family: 'Crimson Text', serif;}
+#local {padding-top:50px;height:700px;color: #fff; background-color: blue;}
 
 
 /**
@@ -69,4 +69,17 @@ Carrossel de imagens
   */
   .has-feedback{
       color: darkslategray;
+  }
+  
+  #local h1, #videos h1, #contato h1{
+      color: darkslategray;
+      font-family: 'Crimson Text', serif;
+  }
+  
+  #local iframe, #videos iframe{
+      box-shadow: 5px 5px 10px black;
+  }
+  
+  #contato .glyphicon{
+      
   }
