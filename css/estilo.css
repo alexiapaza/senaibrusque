@@ -1,6 +1,6 @@
 /* 
     Created on : 13/11/2015, 20:34:37
-    Author     : Alexia Fernanda Paza
+    Author     : Tarcísio Nunes
 */
 
 #topo{
@@ -13,6 +13,7 @@
 /**
 Topo Jumbotron
 */
+
 
 .jumbotron{
     margin: 0;
@@ -49,9 +50,9 @@ Seções
 #cursos {padding-top:50px;height:600px;color: #fff; background-color: #673ab7;}
 #noticias {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
 #fotos {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-#videos {padding-top:50px;height:500px;color: #fff; background-color: red;}
-#contato {padding-top:50px;height:500px;color: #fff; background-color: green;}
-#local {padding-top:50px;height:700px;color: #fff; background-color: blue;}
+#videos {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke;}
+#contato {padding-top:50px;height:auto;color: #fff; background-color: whitesmoke;}
+#local {padding-top:50px;height:600px;color: #fff; background-color: whitesmoke;}
 
 
 /**
@@ -68,18 +69,32 @@ Carrossel de imagens
   Personalizar o ícone de dentro de formulário
   */
   .has-feedback{
-      color: darkslategray;
+      color: darkslategrey;
   }
   
-  #local h1, #videos h1, #contato h1{
-      color: darkslategray;
-      font-family: 'Crimson Text', serif;
+  #local h1,#videos h1,#contato h1{
+      color: darkslategrey;
+      font-family: 'Oswald', sans-serif;
   }
   
-  #local iframe, #videos iframe{
+  #contato h1{margin-bottom: 20px;}
+  
+  #contato p{
+      color: darkslategrey;
+      font-family: arial;
+      padding: 5px;
+  }
+  
+  #contato input, #contato textarea, #contato button{
+      margin: 5px;
+      padding: 10px;
+      
+  }
+  
+  #local iframe,#videos iframe{
       box-shadow: 5px 5px 10px black;
   }
   
   #contato .glyphicon{
-      
+      color: darkslategrey;
   }

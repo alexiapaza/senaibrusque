@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <title>Site Institucional do SENAI - Brusque</title>
 
+        <!-- Fontes -->
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
         <!-- CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/estilo.css" />
@@ -19,7 +22,7 @@
 
         <header class="jumbotron text-center" id="topo">
             <h1>SENAI/SC Brusque</h1>
-            
+            <p>Alo Ha mundo do Bootstrap</p>
 
             <form role="form" class="form-inline">
                 <!-- Gerador de Bootstrap Form 
@@ -126,73 +129,72 @@
             </div> <!-- row -->
             <!-- fim do carrossel de imagens -->
         </section>
+
         <section id="cursos" class="container-fluid">
             <h1>Cursos</h1>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </section>
+
         <section id="noticias" class="container-fluid">
             <h1>Notícias</h1>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </section>
+
         <section id="fotos" class="container-fluid">
             <h1>Fotos</h1>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </section>
+
         <section id="videos" class="container-fluid">
-            <h1>Vídeos</h1>
             <div class="text-center">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/TXLU62CVRwA" frameborder="0" allowfullscreen></iframe>
+                <h1>Galeria Vídeos</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXTxMOByxQKOZcxIvbgx_93ItPjnbqYIk" frameborder="0" allowfullscreen></iframe>
             </div>
-            </section>
-        
+        </section>
+
         <section id="contato" class="container-fluid">
             <h1>Contato</h1>
-            <dv cless="row">
-            <div class="col-lg-4">
-                <p>Entre em contato, responderemos nas próximas 24 horas.</p>
-                <p> <i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i> 
-                Brusque,SC </p>
-                <p> <i class="glyphicon glyphicon-phone-alt" aria-hidden="true"></i> 
-                +55 (47) 3251-8900 </p>
-                <p> <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i> 
-                brusque@fiesc.com.br </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Entre em contato, responderemos nas próximas 24 horas</p>
+                    <p><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
+                        Brusque/SC
+                    </p>
+                    <p>
+                        <i class="glyphicon glyphicon-phone-alt" aria-hidden="true"></i>
+                        +55 (47) 3251-8900
+                    </p>
+                    <p>
+                        <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+                        brusque@fiesc.com.br
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <form>
+                        <div class="form-inline">
+                                <input type="text" class="form-control" id="cNome" placeholder="Nome">
+                                <input type="email" class="form-control" id="cEmail" placeholder="E-mail">
+                        </div>
+                        <textarea class="form-control" rows="5" cols="40" id="cMensagem" placeholder="Mensagem"></textarea>
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                    </form>
+                </div>
             </div>
-            
-        <div class="col-lg-6"> 
-            <form>
-            <div class="form-inline">
-                
-            <div class="form-group">
-                <label class="sr-only" for="cNome">Nome</label>
-                <input type="text" class="form-control" id="cNome" placeholder="Nome">
-            </div>
-                
-            <div class="form-group">    
-                <label class="sr-only" for="cEmail">Email</label>
-                <input type="text" class="form-control" id="cEmail" placeholder="Email">
-            </diiv>
-            
-            <div class="form-group">    
-                <label class="sr-only" for="cMsg">Mensagem</label>
-                <input type="text" class="form-control" id="cMsg" placeholder="Mensagem">
-            </diiv>
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox"> Remember me
-                </label>
-                </form>
-            </div>
-        </div>
-            </section>
-        
-            <section id="local" class="container-fluid">
-            <h1>Localização</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d113641.42934820078!2d-48.98024281464476!3d-27.11552733171023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x94df47b2050e1221%3A0xb0ebeaaf853b447!2sAv.+Primeiro+de+Maio%2C+670+-+Primeiro+de+Maio%2C+Brusque+-+SC%2C+88353-202!3m2!1d-27.1156975!2d-48.910202!5e0!3m2!1spt-BR!2sbr!4v1447799869084" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>"
-            <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic' rel='stylesheet' type='text/css'>
+
+
         </section>
+
+        <section id="local" class="container-fluid">
+            <div class="text-center">
+                <h1>Localização</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5972.578301415663!2d-48.91459628134629!3d-27.11484556231412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94df47b2050e1221%3A0xb0ebeaaf853b447!2sAv.+Primeiro+de+Maio%2C+670+-+Primeiro+de+Maio%2C+Brusque+-+SC%2C+88353-202!3m2!1d-27.1156975!2d-48.910202!5e0!3m2!1spt-BR!2sbr!4v1447800510027" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+
         <script src="js/meuscript.js"></script>
+
     </body>
 </html>
