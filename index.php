@@ -165,6 +165,7 @@
         </section>
 
         <script src="js/meuscript.js"></script>
+        <script src="js/formScript.js"></script>
 
     </body>
 </html>
