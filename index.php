@@ -9,11 +9,15 @@
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/animate.css" />
         <link rel="stylesheet" href="css/estilo.css" />
 
         <!-- Javascript -->
         <script src="js/jquery-1.11.3.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>        
+        <script src="js/validator.js"></script>
+        <script src="js/meuscript.js"></script>
+        <script src="js/formScript.js"></script>
 
 
     </head>
@@ -163,9 +167,6 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5972.578301415663!2d-48.91459628134629!3d-27.11484556231412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94df47b2050e1221%3A0xb0ebeaaf853b447!2sAv.+Primeiro+de+Maio%2C+670+-+Primeiro+de+Maio%2C+Brusque+-+SC%2C+88353-202!3m2!1d-27.1156975!2d-48.910202!5e0!3m2!1spt-BR!2sbr!4v1447800510027" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </section>
-
-        <script src="js/meuscript.js"></script>
-        <script src="js/formScript.js"></script>
 
     </body>
 </html>

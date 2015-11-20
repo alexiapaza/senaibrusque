@@ -1,9 +1,13 @@
 /*http://webdesign.tutsplus.com/tutorials/building-a-bootstrap-contact-form-using-php-and-ajax--cms-23068*/
 
-$("#contactForm").submit(function(event){
-    // cancels the form submission
-    event.preventDefault();
-    submitForm();
+$("#contactForm").validator().on("submit", function (event) {
+    if (event.isDefaultPrevented()) {
+        // handle the invalid form...
+    } else {
+        // everything looks good!
+        event.preventDefault();
+        submitForm();
+    }
 });
 
 function submitForm(){
