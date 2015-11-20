@@ -98,3 +98,11 @@ Carrossel de imagens
   #contato .glyphicon{
       color: darkslategrey;
   }
+  
+  /*Estilizando o formulário do contado*/
+  
+  #contactForm .h4, #contactForm .h3{
+      color: darkslategray;
+  }
+ 
+  
