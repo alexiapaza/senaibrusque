@@ -46,7 +46,7 @@ if (isset($_POST['btn'])) {
         $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
         $cod = gerarCodigo();
         //String SQL
-        $sql = "INSERT INTO lista(email,cod,dtCadastro) "
+        $sql = "INSERT INTO newsletter(email,cod,dtcadastro) "
                 . "values(:email,:cod,now())";
         $parametros = array(':email' => $email,
             ':cod' => $cod);
@@ -76,14 +76,14 @@ if (isset($_POST['btn'])) {
          * e confirmar seu e-mail
          */
     } else {
-        header('Location: index.php');
+        header('Location: ../index.php');
     }
 } elseif (isset($_GET['cod'])) {
     if ($_GET['cod'] == 'listar') {
         //LISTAGEM DE E-MAILS
         // select * from lista // desaconselhado
-        $sql = "SELECT email,cod,situacao,dtCadastro,dtAtualizacao "
-                . "from lista";
+        $sql = "SELECT email,cod,situacao,dtcadastro,dtatualizacao "
+                . "from newsletter";
         $q = $conn->query($sql);
         $q->setFetchMode(PDO::FETCH_ASSOC);
         while ($r = $q->fetch()) {
@@ -104,14 +104,14 @@ if (isset($_POST['btn'])) {
             $link .= $r['situacao'] . "\t";
             $link .= "</a>";
             echo $link;
-            echo converteDataMySQLPHP($r['dtCadastro']) . "\t";
-            echo converteDataMySQLPHP($r['dtAtualizacao']);
+            echo converteDataMySQLPHP($r['dtcadastro']) . "\t";
+            echo converteDataMySQLPHP($r['dtatualizacao']);
             echo "</p>\n";
         }
     }
     //Exclusão de um registro
     elseif ($_GET['cod'] == 'd' && isset($_GET['hash'])) {
-        $sql = "delete from lista where cod = :hash";
+        $sql = "delete from newsletter where cod = :hash";
         $hash = filter_input(INPUT_GET, 'hash', FILTER_SANITIZE_STRING);
         //echo "<h1>$hash</h1>";
         $p = $conn->prepare($sql);
@@ -121,8 +121,8 @@ if (isset($_POST['btn'])) {
     //Atualização da situação cadastral
     //Confirmação de e-mail
     elseif ($_GET['cod'] == 'e' && isset($_GET['hash'])) {
-        $sql = "update lista set situacao=1, "
-                . "dtAtualizacao = now() where cod = :hash";
+        $sql = "update newsletter set situacao=1, "
+                . "dtatualizacao = now() where cod = :hash";
         $hash = filter_input(INPUT_GET, 'hash', FILTER_SANITIZE_STRING);
         //echo "<h1>$hash</h1>";
         $p = $conn->prepare($sql);
@@ -134,5 +134,5 @@ if (isset($_POST['btn'])) {
     //Botão cadastrar não foi pressionado
     //E nem o código foi passado
     //Redireciona para a página inicial
-    header('Location: index.php');
+    header('Location: ../index.php');
 }
