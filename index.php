@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <link rel="stylesheet" href="css/animate.css" />
         <link rel="stylesheet" href="css/estilo.css" />
+       
 
         <!-- Javascript -->
         <script src="js/jquery-1.11.3.min.js"></script>
@@ -18,6 +19,8 @@
         <script src="js/validator.js"></script>
         <script src="js/meuscript.js"></script>
         <script src="js/formScript.js"></script>
+        <script src="js/cadastroscript.js"></script>
+        
 
 
     </head>
@@ -28,18 +31,7 @@
             <h1>SENAI/SC Brusque</h1>
             <p>A indústria do conhecimento</p>
 
-            <form role="form" class="form-inline" action="cadastro/cadastro.php" method="post">
-                <!-- Gerador de Bootstrap Form 
-                     http://embed.plnkr.co/ZrnnkFR3Yv9HGQHrRMiW/preview -->
-                <!-- Em caso de sucesso na validação: <div class="form-group has-feedback has-success"> -->
-                <!-- Em caso de falha na validação: <div class="form-group has-feedback has-error"> -->
-                <div class="form-group has-feedback">
-                    <input type="text" class="form-control" placeholder="seunome@provedor.com.br" size="40px"/>
-                    <i class="form-control-feedback glyphicon glyphicon-envelope"></i>
-                </div>
-                <button type="submit" class="btn btn-success">Cadastrar</button>
-                
-            </form>
+            <?php include 'formCadastro.php' ?>
         </header>
 
         <!-- Barra de Navegação -->
