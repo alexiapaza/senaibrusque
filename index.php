@@ -28,7 +28,7 @@
             <h1>SENAI/SC Brusque</h1>
             <p>A indústria do conhecimento</p>
 
-            <form role="form" class="form-inline"; action="cadastro.php" method="post">
+            <form role="form" class="form-inline" action="cadastro/cadastro.php" method="post">
                 <!-- Gerador de Bootstrap Form 
                      http://embed.plnkr.co/ZrnnkFR3Yv9HGQHrRMiW/preview -->
                 <!-- Em caso de sucesso na validação: <div class="form-group has-feedback has-success"> -->
