@@ -1,10 +1,11 @@
 <!-- Trigger the modal with a button -->
+        
 <div clas="row">
-    <div class="span4">
+    <div id="span4" class="span4">
+        
         <h2>Edital SESI SENAI de inovação</h2>
-        <p>Inovar é fundamental para a competitividade da indústria brasileira. O Edital 
-            SENAI SESI de Inovação é uma iniciativa que valoriza essa prática, promovendo o 
-            desenvolvimento de novos produtos, processos e serviços inovadores.</p>
+        <p>Inovar é fundamental para a competitividade da indústria brasileira.</p>
+        
         
         <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Abrir Notícia</button>
 
