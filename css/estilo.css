@@ -111,10 +111,16 @@ Carrossel de imagens
       color: black;
   }
   
-  #span4{
+  #panel{
+      display: block;
       color: black;
+      width: 400px;
+      height: 250px;
+      margin: auto;
+      text-align: center;
   }
   
   #well{
       background-color: white;
   }
+  

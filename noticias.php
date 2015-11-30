@@ -1,14 +1,17 @@
 <!-- Trigger the modal with a button -->
         
-<div clas="row">
-    <div id="span4" class="span4">
         
-        <h2>Edital SESI SENAI de inovação</h2>
-        <p>Inovar é fundamental para a competitividade da indústria brasileira.</p>
+<section id="noticias" class="container-fluid">
+                
+                <div id="panel" class="col-md-3">
+        <div class="panel-heading">Edital SESI SENAI de inovação</div>
+        <div class="panel-body">Inovar é fundamental para a competitividade da indústria brasileira. O Edital 
+            SENAI SESI de Inovação é uma iniciativa que valoriza essa prática, promovendo o 
+            desenvolvimento de novos produtos, processos e serviços inovadores.</div>
+        <button id="button1" type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Abrir Notícia</button>
+        </div>
         
-        
-        <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Abrir Notícia</button>
-
+       
 <!-- Modal -->
     <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -46,6 +49,4 @@
         </div>
         </div>
     </div>
-    </div>
-</div>
-
+</section>
