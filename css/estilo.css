@@ -3,6 +3,10 @@
     Author     : Alexia Fernanda Paza
 */
 
+.text-cadastro{
+    color: #fff;
+}
+
 #topo{
     background-color: #017338;
     color: whitesmoke;
@@ -13,7 +17,6 @@
 /**
 Topo Jumbotron
 */
-
 
 .jumbotron{
     margin: 0;
@@ -99,10 +102,7 @@ Carrossel de imagens
       color: darkslategrey;
   }
   
-  /*Estilizando o formulário do contado*/
-  
-  #contactForm .h4, #contactForm .h3{
-      color: darkslategray;
+  /*Estlizando o formulário de contato*/
+  #contactForm .h4{
+     color: darkslategrey; 
   }
- 
-  
