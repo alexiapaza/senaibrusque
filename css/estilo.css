@@ -107,20 +107,26 @@ Carrossel de imagens
      color: darkslategrey; 
   }
 
-  #myModal{
-      color: black;
+  /*Estlizando o formulário de contato*/
+  
+  #noticias .panel{
+      margin-left: 5%;
+      padding: 10px;
+  }
+  #noticias  .pagination li a{color: darkslategray;}
+  
+  #noticias  .pagination  .active  a{
+      background-color: #449D44;
+      border-color: #449D44;    
+      color: lightgreen;
+  }
+  .modal{margin-top: 50px;}
+  .modal-content p{text-align: justify}
+
+  #noticia1{
+      color: darkslategray;
   }
   
-  #panel{
-      display: block;
-      color: black;
-      width: 400px;
-      height: 250px;
-      margin: auto;
-      text-align: center;
+   #resumo{
+      color: darkslategray;
   }
-  
-  #well{
-      background-color: white;
-  }
-  

@@ -135,13 +135,9 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </section>
-
-        <section id="noticias" class="container-fluid">
-            <h1>Notícias</h1>
-            
-                <?php include 'noticias.php' ?>
-        </section>
-        
+                   
+        <?php include 'noticias.php' ?>
+                
         <section id="fotos" class="container-fluid">
             <h1>Fotos</h1>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>

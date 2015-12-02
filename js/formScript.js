@@ -32,4 +32,18 @@ function formSuccess(){
     $( "#msgSubmit" ).removeClass( "hidden" );
 }
 
+function submitMSG(valid, msg) {
+    var msgClasses;
+    if (valid) {
+        msgClasses = "h3 text-center tada animated text-success";
+    } else {
+        msgClasses = "h3 text-center rubberBand animated text-danger";
+    }
+    $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+}
 
+function formError() {
+    $("#contactForm").removeClass().addClass('shake animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+        $(this).removeClass();
+    });
+}
