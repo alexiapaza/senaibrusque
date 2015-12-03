@@ -23,3 +23,14 @@ $("#myNavbar a").on('click', function(event){
     window.location.hash = hash;
   });
 });
+
+var id = 0;
+$('document').ready(function () {
+    $('#noticias button').click(function () {
+     //Botão pressionado
+     if ($.isNumeric ($(this).attr("id"))) {
+         id = $(this).attr('id');
+         console.log(id);
+     }
+    });
+});

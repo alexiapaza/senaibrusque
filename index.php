@@ -59,15 +59,6 @@
                             <li><a href="#videos">Vídeos</a></li>
                             <li><a href="#contato">Contato</a></li>
                             <li><a href="#local">Localização</a></li>
-
-                            <!-- Menu drop-down
-                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#section41">Section 4-1</a></li>
-                                    <li><a href="#section42">Section 4-2</a></li>
-                                </ul>
-                            </li>
-                            -->
                         </ul>
                     </div>
                 </div>
@@ -79,13 +70,6 @@
 
             <!-- Carrossel de imagens -->
             <div clas="row">                
-                <!--
-                Uma linha dividida em 12 colunas, sendo uma coluna central
-                tamanho 8 e um distanciamento de 2
-                
-                Sistema de Grid no Bootstrap
-                http://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
-                -->
                 <div class="col-lg-8 col-lg-offset-2">
                     <div id="myCarousel" class="carousel slide" data-ride="carousel" data-pause="hover" data-interval="2000">
                         <!-- Indicators -->
